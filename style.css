@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9; /* Cor de fundo clara */
+    background-color: #f9f9f9;
 }
 
 /* Cabeçalho */
 header {
-    background: #4CAF50; /* Verde */
+    background: #4CAF50;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -35,18 +35,35 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 10px;
-    background-color: white; /* Fundo branco para seções */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 /* Rodapé */
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #4CAF50; /* Verde */
+    background: #4CAF50;
     color: white;
-    position: relative; /* Ajustar o posicionamento se necessário */
+    position: relative;
     bottom: 0;
     width: 100%;
 }
