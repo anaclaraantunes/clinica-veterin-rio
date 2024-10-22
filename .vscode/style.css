@@ -37,4 +37,16 @@ section {
     margin: 10px;
     background-color: white; /* Fundo branco para seções */
     border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 2px 5px rgba(0
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #4CAF50; /* Verde */
+    color: white;
+    position: relative; /* Ajustar o posicionamento se necessário */
+    bottom: 0;
+    width: 100%;
+}
