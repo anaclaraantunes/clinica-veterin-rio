@@ -1,13 +1,11 @@
-/* Estilo geral */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
     background-color: #f9f9f9;
 }
 
-/* Cabeçalho */
 header {
     background: #4CAF50;
     color: white;
@@ -21,32 +19,24 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 0 15px;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
-nav ul li a:hover {
-    color: #dff0d8; /* Cor ao passar o mouse */
-}
-
-/* Seções */
 section {
     padding: 20px;
     margin: 10px auto;
-    max-width: 800px; /* Limita a largura */
+    max-width: 800px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Formulário */
 form {
     display: flex;
     flex-direction: column;
@@ -54,7 +44,6 @@ form {
 
 form label {
     margin: 10px 0 5px;
-    font-weight: bold; /* Destaca o texto do rótulo */
 }
 
 form input,
@@ -63,16 +52,21 @@ form textarea {
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    transition: border-color 0.3s; /* Efeito de transição */
 }
 
-form input:focus,
-form textarea:focus {
-    border-color: #4CAF50; /* Destaca o campo em foco */
-    outline: none; /* Remove o contorno padrão */
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-/* Rodapé */
+button:hover {
+    background-color: #45a049;
+}
+
 footer {
     text-align: center;
     padding: 15px 0;
